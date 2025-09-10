@@ -1,0 +1,13 @@
+checklistID#header#optimalValue#passedValues#lowValues#mediumValues
+36#Strict-Transport-Security#max-age=63072000; includeSubDomains; preload#max-age=31536000; includeSubDomains; preload#<max-age_1year>#<empty>
+37#X-Frame-Options#DENY#<none>#SAMEORIGIN|ALLOW-FROM#<empty>
+38#Content-Security-Policy#default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self'; upgrade-insecure-requests#<none>#<none>#<empty>|script-src 'unsafe-inline'|script-src 'unsafe-eval'
+39#X-Content-Type-Options#nosniff#<none>#<none>#<empty>
+40#Access-Control-Allow-Origin#<empty>#<none>#<value_set>#*
+41#Content-Type#<mimetype_charset_set>#<charset_empty_not_html>#<charset_empty_and_html>#<empty>
+42#Referrer-Policy#strict-origin-when-cross-origin#no-referrer|strict-origin#no-referrer-when-downgrade|same-origin|origin|origin-when-cross-origin|unsafe-url|<empty>#<none>
+43#Server#Apache|nginx#<empty>#<value_set>#<value_with_version>
+44#X-Powered-By#<empty>#<none>#<value_set>#<value_with_version>
+45#Clear-Site-Data#<value_set>#<none>#<empty>#<none>
+46#Permissions-Policy#microphone=(), geolocation=(), usb=(), payment=(), camera=(), display-capture=()#<permissions_policy_set_empty>|<feature_policy_set>#<empty>#*
+47#Cache-Control#no-store#no-cache|max-age=0|#<value_set>|<empty>#<none>
